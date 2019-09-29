@@ -1,0 +1,48 @@
+.imagebox {
+    width: 100%;
+}
+/*.bike_item {
+    float: left;
+    position: relative;
+}*/
+nav li {
+    float: left;
+    list-style-type: none;
+}
+nav li a {
+    font-size: 50px;
+    text-decoration: none;
+    padding: 30px;
+}
+nav li a:hover {
+    color: blue;
+}
+menu, logo {
+    height: 70px;
+    padding: 5px;
+}
+.logo {
+    font-size: 40px;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+}
+#wrapper {
+    max-width: 100%;
+    margin: auto;
+}
+section {
+    width: 100%;
+    margin-left: 100px;
+}
+footer {
+    width: 100%;
+    background-color: black;
+}
+footer p {
+    color: white;
+}
+form[name="search"] {
+    float: right;
+}
