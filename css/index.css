@@ -1,48 +1,41 @@
-.imagebox {
+body {
+    margin: auto;
+}
+header {
+    height: 70px;
+}
+.imagebox img{
     width: 100%;
 }
-/*.bike_item {
+#logo a {
     float: left;
-    position: relative;
-}*/
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    display: block;
+}
+#cart {
+    padding: 10px;
+}
+nav {
+	overflow: hidden;
+	float: right;
+}
 nav li {
     float: left;
     list-style-type: none;
 }
 nav li a {
-    font-size: 50px;
+    font-size: 30px;
     text-decoration: none;
-    padding: 30px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    float: auto;
 }
-nav li a:hover {
-    color: blue;
-}
-menu, logo {
-    height: 70px;
-    padding: 5px;
-}
-.logo {
-    font-size: 40px;
-    text-decoration: none;
-}
-html, body {
-    width: 100%;
-}
-#wrapper {
-    max-width: 100%;
-    margin: auto;
-}
-section {
-    width: 100%;
-    margin-left: 100px;
-}
-footer {
-    width: 100%;
-    background-color: black;
-}
-footer p {
-    color: white;
-}
-form[name="search"] {
-    float: right;
+figure {
+    width: 30%;
+    display: inline-block;
+    text-align-last: center;
+    margin: 10px;
 }
